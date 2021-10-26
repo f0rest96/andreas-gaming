@@ -6,6 +6,14 @@
                 <span id="time"></span>
             </div>
             <div class="col-12 text-center">
+                <?php 
+                    $startday = new DateTime('2021-10-23');
+                    $today = new DateTime();
+                    $days  = $today->diff($startday)->format('%a');
+                    
+                    $cups = $days*3;
+                ?>
+                Made with <?php echo($cups)?> cups of ☕ & ❤
             </div>
             <div class="col-12 text-center">
                 <p class="copy">Copyright &copy; 2021-<?php echo date('Y'); ?> by <a href="https://github.com/f0rest96" target="_blank">#Storm</a> & <a href="#">#Baklavica </a></p>
