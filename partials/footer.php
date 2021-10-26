@@ -13,7 +13,7 @@
                     
                     $cups = $days*3;
                 ?>
-                Made with <?php echo($cups)?> cups of ☕ & ❤
+                Made with <?php echo($cups)?> cups of ☕ &  <i class="fas fa-heart text-danger"></i>
             </div>
             <div class="col-12 text-center">
                 <p class="copy">Copyright &copy; 2021-<?php echo date('Y'); ?> by <a href="https://github.com/f0rest96" target="_blank">#Storm</a> & <a href="#">#Baklavica </a></p>
